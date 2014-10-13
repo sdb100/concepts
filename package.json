@@ -1,0 +1,17 @@
+{
+  "name": "concept-matcher",
+  "description": "simple app for storing and matching concepts",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test" : "mocha"
+  },
+  "dependencies": {
+    "express": "4.x",
+    "redis": "0.12.x",
+    "mocha": "^1.21.5",
+    "Set": "^0.4.1",
+    "underscore": "^1.7.0"
+  }
+}
